@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: 'eu-east-1'
+  region: 'us-east-1'
   app: "workflow"
   env: "Workflow-env"
   bucket_name: "elasticbeanstalk-us-east-1-120022455394"
